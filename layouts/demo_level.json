@@ -1444,6 +1444,18 @@
           "parameters": [
             "npc.dialog"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "New sound effect",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
