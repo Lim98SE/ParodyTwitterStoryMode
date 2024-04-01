@@ -1,0 +1,81 @@
+{
+  "associatedLayout": "demo_level",
+  "name": "textbox",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Text UI",
+      "name": "textbox",
+      "persistentUuid": "6addb5c3-8202-43d4-b595-54d03b3a1a61",
+      "width": 1792,
+      "x": 64,
+      "y": 704,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Text UI",
+      "name": "portrait",
+      "persistentUuid": "4205dc0a-0340-4dc9-b829-fb9d9af2ff02",
+      "width": 0,
+      "x": 128,
+      "y": 768,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Text UI",
+      "name": "text_border",
+      "persistentUuid": "3ebc9adc-c3f4-48ad-bd12-caa19688035f",
+      "width": 0,
+      "x": 128,
+      "y": 768,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "Text UI",
+      "name": "textbox_text",
+      "persistentUuid": "5b9ee23f-6662-43f7-8ba9-e3d0772d7394",
+      "width": 1408,
+      "x": 384,
+      "y": 768,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.1,
+    "snap": true,
+    "zoomFactor": 0.4753585087126931,
+    "windowMask": false
+  }
+}
