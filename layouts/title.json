@@ -1348,7 +1348,7 @@
           },
           "parameters": [
             "",
-            "02 Start Menu.mp3",
+            "Monkeys-Spinning-Monkeys(chosic.com).mp3",
             "yes",
             "",
             ""
@@ -1385,6 +1385,16 @@
             "Opacity",
             "=",
             "255 / 4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
           ]
         }
       ]
