@@ -184,62 +184,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "npc",
-      "persistentUuid": "cdb2ddd2-28f0-4fde-8c24-33b5817728b4",
-      "width": 0,
-      "x": 2304,
-      "y": -448,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "sprite",
-          "type": "string",
-          "value": "DUMMY"
-        },
-        {
-          "folded": true,
-          "name": "dialog",
-          "type": "string",
-          "value": "DUMMY"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "npc",
-      "persistentUuid": "80c90eea-bb57-4be4-a7a8-b33a9cadf257",
-      "width": 0,
-      "x": 2560,
-      "y": -448,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "sprite",
-          "type": "string",
-          "value": "heavy"
-        },
-        {
-          "folded": true,
-          "name": "dialog",
-          "type": "string",
-          "value": "DUMMY_2"
-        }
-      ]
-    },
-    {
       "angle": 353,
       "customSize": false,
       "height": 0,
@@ -333,6 +277,34 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "npc",
+      "persistentUuid": "0fdab65a-2a72-4fee-baa3-ce0f3778e289",
+      "width": 0,
+      "x": 2432,
+      "y": -512,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "sprite",
+          "type": "string",
+          "value": "Flowey"
+        },
+        {
+          "folded": true,
+          "name": "dialog",
+          "type": "string",
+          "value": "NPC_Flowey_00"
+        }
+      ]
     }
   ],
   "objects": [
@@ -956,6 +928,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Flowey",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flowey2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1143,6 +1164,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\350px-Heavy-export.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flowey",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flowry.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

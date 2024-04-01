@@ -459,6 +459,51 @@
         "name": "sans_thumbnail-export.png2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "f;owey.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"f;owey.png\",\"extension\":\".png\"}",
+        "name": "f;owey.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/sprite_sheet_flowey_by_kuri_01_dejl9cz-pre.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\sprite_sheet_flowey_by_kuri_01_dejl9cz-pre.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Flowry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flowry.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flowey.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flowey",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flowey2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flowey2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

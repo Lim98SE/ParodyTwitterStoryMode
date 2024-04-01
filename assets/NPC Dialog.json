@@ -18,5 +18,15 @@
 			"y": 114
 		},
 		"colorID": 0
+	},
+	{
+		"title": "NPC_Flowey_00",
+		"tags": "",
+		"body": "<< p Flowey >> \nHi! I'm Flowey! Flowey the flower!",
+		"position": {
+			"x": -137,
+			"y": 107
+		},
+		"colorID": 0
 	}
 ]
