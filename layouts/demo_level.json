@@ -32,7 +32,7 @@
       "name": "player",
       "persistentUuid": "f5b4b027-5411-40df-8fa5-dd9993001dd5",
       "width": 0,
-      "x": 832,
+      "x": 896,
       "y": 512,
       "zOrder": 1,
       "numberProperties": [],
@@ -1272,6 +1272,15 @@
       "actions": [
         {
           "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "NPC Dialog"
+          ]
+        },
+        {
+          "type": {
             "value": "SetFullScreen"
           },
           "parameters": [
@@ -1298,15 +1307,6 @@
             "yes",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "NPC Dialog"
           ]
         },
         {
