@@ -509,6 +509,15 @@
         "name": "baldi bug",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talldi.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "talldi",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
