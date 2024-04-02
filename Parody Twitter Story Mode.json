@@ -784,6 +784,33 @@
         "name": "assets\\Titles\\Vessel Arlo.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Demon Expo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Demon Expo.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kirby Full-Res.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kirby Full-Res.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Lanolin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Lanolin.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
