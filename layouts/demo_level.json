@@ -507,7 +507,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup1.png",
+                  "image": "walkup",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -543,7 +543,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup2.png",
+                  "image": "walkup2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft1.png",
+                  "image": "walkleft",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -628,7 +628,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft2.png",
+                  "image": "walkleft2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -677,7 +677,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright1.png",
+                  "image": "walkright",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -713,7 +713,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright2.png",
+                  "image": "walkright2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

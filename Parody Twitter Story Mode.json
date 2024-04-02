@@ -523,6 +523,267 @@
         "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkright2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkup.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkup",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkup2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkup2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkleft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkleft",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkleft2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkleft2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkright.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkright",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkright2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkright2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Blue Villager.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Blue Villager.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Baldi 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Baldi 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Beetlejuice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Beetlejuice.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cappy Kid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cappy Kid.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Chef Pig.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Chef Pig.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Error Sans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Error Sans.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/EXE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\EXE.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Fire.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Flowey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Flowey.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Into a Brilliant, Lucid Gensokyo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Into a Brilliant, Lucid Gensokyo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Johnny Razer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Johnny Razer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kachow.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kachow.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Khan Doorman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Khan Doorman.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kirby!.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kirby!.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Lord X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Lord X.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mora.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mora.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/NES Sonic.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\NES Sonic.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Roommates.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Roommates.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/SANS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\SANS.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Skibidi Arlo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Skibidi Arlo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Sonic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Sonic.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Spike.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Spike.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Vessel Arlo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Vessel Arlo.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
