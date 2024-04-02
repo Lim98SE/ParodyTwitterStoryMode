@@ -541,6 +541,87 @@
         "name": "assets\\Titles\\Beetlejuice.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Lord X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Lord X.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Fire.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Flowey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Flowey.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Sonic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Sonic.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Narinder.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Narinder.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Chef Pig.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Chef Pig.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cappy Kid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cappy Kid.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Error Sans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Error Sans.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Vessel Arlo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Vessel Arlo.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
