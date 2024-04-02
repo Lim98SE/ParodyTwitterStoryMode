@@ -518,6 +518,15 @@
         "name": "talldi",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Malachite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Malachite.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
