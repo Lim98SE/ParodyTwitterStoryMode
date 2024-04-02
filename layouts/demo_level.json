@@ -305,6 +305,22 @@
           "value": "NPC_Flowey_00"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "UI",
+      "name": "NewVideo",
+      "persistentUuid": "49ce9485-4838-4d77-8fd2-c26fee90e3e3",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -360,7 +376,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sans_thumbnail-export2.png",
+                  "image": "layouts\\Baldi.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -404,7 +420,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "wall",
-      "texture": "sans_thumbnail-export.png2",
+      "texture": "layouts\\Baldi.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -415,11 +431,28 @@
       "assetStoreId": "",
       "height": 64,
       "name": "room",
-      "texture": "NewTiledSprite2",
+      "texture": "layouts\\Baldi.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 0.25,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
@@ -940,7 +973,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flowey2",
+                  "image": "baldi bug",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1244,6 +1277,42 @@
                       }
                     ]
                   ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "layouts\\Baldi.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1291,6 +1360,20 @@
         "characterSize": 64,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewVideo",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 1,
+        "videoResource": "baldi2.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1310,6 +1393,9 @@
       },
       {
         "objectName": "npc"
+      },
+      {
+        "objectName": "NewVideo"
       },
       {
         "objectName": "portrait"
@@ -1356,14 +1442,6 @@
             "",
             "yes",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "room"
           ]
         },
         {
@@ -1419,6 +1497,14 @@
             "Animation",
             "=",
             "npc.sprite"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "NewVideo"
           ]
         }
       ]
@@ -1781,6 +1867,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Text UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

@@ -477,6 +477,38 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "baldi.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "baldi.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "baldi2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "baldi2.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/Baldi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\Baldi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/baldi bug.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "baldi bug",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
