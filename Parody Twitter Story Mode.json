@@ -478,6 +478,15 @@
         "name": "assets\\Titles\\Baldi.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Baldi 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Baldi 2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
