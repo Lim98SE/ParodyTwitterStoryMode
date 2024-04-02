@@ -305,22 +305,6 @@
           "value": "NPC_Flowey_00"
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 192,
-      "layer": "UI",
-      "name": "NewVideo",
-      "persistentUuid": "49ce9485-4838-4d77-8fd2-c26fee90e3e3",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -420,7 +404,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "wall",
-      "texture": "layouts\\Baldi.png",
+      "texture": "wall",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -969,11 +953,131 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "baldi bug",
+                  "image": "assets\\Talk Sprites\\FLOWEY_Open.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Talk Sprites\\FLOWEY_Closed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EvilFlowey",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.03,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Talk Sprites\\FLOWEY_EvilOpen.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Talk Sprites\\FLOWEY_EvilCLosed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1083,15 +1187,23 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "penis",
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "",
       "font": "Pixellari.ttf",
       "textAlignment": "left",
       "characterSize": 64,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1107,11 +1219,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "penis",
+        "text": "",
         "font": "Pixellari.ttf",
         "textAlignment": "left",
         "characterSize": 64,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1360,20 +1472,6 @@
         "characterSize": 64,
         "color": "0;0;0"
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewVideo",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 1,
-        "videoResource": "baldi2.mp4"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -1393,9 +1491,6 @@
       },
       {
         "objectName": "npc"
-      },
-      {
-        "objectName": "NewVideo"
       },
       {
         "objectName": "portrait"
@@ -1450,7 +1545,7 @@
           },
           "parameters": [
             "",
-            "Forest Of The Lost Memories 003 - Parody Twitter Story Mode OST (youtube).mp3",
+            "RecordIt-E4F8201E-5A42-4511-A9CD-CCC19B120436.mp3",
             "yes",
             "",
             ""
@@ -1501,10 +1596,20 @@
         },
         {
           "type": {
-            "value": "Video::Play"
+            "value": "Cache"
           },
           "parameters": [
-            "NewVideo"
+            "room"
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+          },
+          "parameters": [
+            "textbox_text",
+            "Text_AutoTyping",
+            ""
           ]
         }
       ]
@@ -1709,24 +1814,82 @@
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "New sound effect",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "textbox_text",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                }
               ]
             },
             {
-              "type": {
-                "value": "DialogueTree::GoToNextLine"
-              },
-              "parameters": []
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "textbox_text",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                  },
+                  "parameters": [
+                    "textbox_text",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1805,6 +1968,45 @@
             "Animation",
             "=",
             "DialogueTree::CommandParameter(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+          },
+          "parameters": [
+            "textbox_text",
+            "Text_AutoTyping",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Talk Sprites\\FLOWEY_Speak.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "portrait",
+            "=",
+            "0"
           ]
         }
       ]
@@ -1954,6 +2156,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",
