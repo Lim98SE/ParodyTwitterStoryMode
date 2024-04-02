@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.4289215686274525,
+    "zoomFactor": 0.5062828002597254,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -498,7 +498,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "room",
-      "texture": "layouts\\Baldi.png",
+      "texture": "assets\\NewTiledSprite2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -549,390 +549,6 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Scout",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\120px-Buffed_blu_scout.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Demoman",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\120px-Demomanava.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sniper",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\120px-Sniperava.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Medic",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\150px-Icon_medic.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Soldier",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\150px-Icon_soldier.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Spy",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\150px-Icon_spy.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Engineer",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\fwbpo1cpkcb61.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Heavy",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\images.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Flowey",
           "useMultipleDirections": false,
           "directions": [
@@ -960,19 +576,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 192
+                        "y": 174
                       },
                       {
                         "x": 0,
-                        "y": 192
+                        "y": 174
                       }
                     ]
                   ]
@@ -996,19 +612,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 192
+                        "y": 174
                       },
                       {
                         "x": 0,
-                        "y": 192
+                        "y": 174
                       }
                     ]
                   ]
@@ -1044,19 +660,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 192
+                        "y": 174
                       },
                       {
                         "x": 0,
-                        "y": 192
+                        "y": 174
                       }
                     ]
                   ]
@@ -1080,19 +696,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 0
+                        "y": 17
                       },
                       {
                         "x": 192,
-                        "y": 192
+                        "y": 174
                       },
                       {
                         "x": 0,
-                        "y": 192
+                        "y": 174
                       }
                     ]
                   ]
@@ -1285,54 +901,6 @@
           ]
         },
         {
-          "name": "heavy",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\350px-Heavy-export.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Flowey",
           "useMultipleDirections": false,
           "directions": [
@@ -1343,42 +911,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Flowry.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "layouts\\Baldi.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

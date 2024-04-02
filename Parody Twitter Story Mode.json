@@ -66,15 +66,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/NewTiledSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "border.png",
         "kind": "image",
         "metadata": "",
@@ -87,16 +78,6 @@
         "kind": "font",
         "metadata": "",
         "name": "Pixellari.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "Forest Of The Lost Memories 003 - Parody Twitter Story Mode OST (youtube).mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Forest Of The Lost Memories 003 - Parody Twitter Story Mode OST (youtube).mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": true
       },
       {
@@ -115,87 +96,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": true,
         "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/120px-Buffed_blu_scout.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\120px-Buffed_blu_scout.jpg",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/120px-Demomanava.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\120px-Demomanava.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/120px-Sniperava.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\120px-Sniperava.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/150px-Icon_medic.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\150px-Icon_medic.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/150px-Icon_soldier.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\150px-Icon_soldier.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/150px-Icon_spy.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\150px-Icon_spy.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fwbpo1cpkcb61.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\fwbpo1cpkcb61.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/images.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\images.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/350px-Heavy-export.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\350px-Heavy-export.png",
-        "smoothed": false,
         "userAdded": true
       },
       {
@@ -398,37 +298,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "sans_thumbnail-export2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sans_thumbnail-export2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sans_thumbnail-export3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"sans_thumbnail-export3.png\",\"extension\":\".png\"}",
         "name": "sans_thumbnail-export3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sans_thumbnail-export5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sans_thumbnail-export5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sans_thumbnail-export6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sans_thumbnail-export6.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -443,28 +316,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sans_thumbnail-export.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "sans_thumbnail-export.png2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Flowry.png",
         "kind": "image",
         "metadata": "",
         "name": "Flowry.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flowey2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Flowey2",
         "smoothed": false,
         "userAdded": true
       },
@@ -476,47 +331,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "baldi.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "baldi.mp4",
-        "userAdded": true
-      },
-      {
-        "file": "baldi2.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "baldi2.mp4",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "layouts/Baldi.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "layouts\\Baldi.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/baldi bug.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baldi bug",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/talldi.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "talldi",
-        "smoothed": false,
         "userAdded": true
       },
       {
@@ -619,6 +433,15 @@
         "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewTiledSprite2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
