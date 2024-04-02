@@ -379,16 +379,6 @@
         "userAdded": true
       },
       {
-        "file": "02 Start Menu.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "02 Start Menu.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/Titles/Hurrikale.png",
         "kind": "image",
@@ -462,37 +452,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "f;owey.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"f;owey.png\",\"extension\":\".png\"}",
-        "name": "f;owey.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../../Downloads/sprite_sheet_flowey_by_kuri_01_dejl9cz-pre.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\Downloads\\sprite_sheet_flowey_by_kuri_01_dejl9cz-pre.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Flowry.png",
         "kind": "image",
         "metadata": "",
         "name": "Flowry.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flowey.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Flowey",
         "smoothed": false,
         "userAdded": true
       },
@@ -503,26 +466,6 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "Flowey2",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "twitter_1773878171617669303_audio2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "twitter_1773878171617669303_audio2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Monkeys-Spinning-Monkeys(chosic.com).mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Monkeys-Spinning-Monkeys(chosic.com).mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": true
       },
       {
