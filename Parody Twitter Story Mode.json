@@ -469,6 +469,15 @@
         "name": "walkdown2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Baldi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Baldi.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

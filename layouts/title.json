@@ -143,7 +143,7 @@
       "layer": "",
       "name": "bg_id",
       "persistentUuid": "2a452d2c-e0c0-4b7c-a4b9-267a57c585de",
-      "width": 996,
+      "width": 1408,
       "x": 0,
       "y": 992,
       "zOrder": 5,
@@ -279,7 +279,7 @@
           "folded": true,
           "name": "available",
           "type": "number",
-          "value": 20
+          "value": 21
         }
       ],
       "effects": [],
@@ -1257,6 +1257,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Titles\\Malachite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1088
+                      },
+                      {
+                        "x": 0,
+                        "y": 1088
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hi, I'm Baldi! Nice to meet ya!",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Titles\\Baldi.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
