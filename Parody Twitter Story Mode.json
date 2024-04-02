@@ -592,6 +592,33 @@
         "name": "wall",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/walkdown1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/walkdown2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -350,17 +350,16 @@
       ],
       "animations": [
         {
-          "name": "talldi",
+          "name": "idle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "talldi",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -380,16 +379,100 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 40,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 128
+                        "x": 40,
+                        "y": 54
                       },
                       {
                         "x": 0,
-                        "y": 128
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walkdown",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 54
+                      },
+                      {
+                        "x": 0,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 54
+                      },
+                      {
+                        "x": 0,
+                        "y": 54
                       }
                     ]
                   ]
