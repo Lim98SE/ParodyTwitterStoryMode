@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.15859378277334846,
+    "zoomFactor": 0.2067809940212399,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1882,12 +1882,6 @@
             "player",
             "TopDownMovement"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [],

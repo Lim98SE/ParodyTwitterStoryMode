@@ -874,6 +874,15 @@
         "name": "assets\\Titles\\Invincible.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Draco.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Draco.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
