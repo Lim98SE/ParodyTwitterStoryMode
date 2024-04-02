@@ -524,15 +524,6 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flowey2-export.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Flowey2-export.png",
-        "smoothed": false,
-        "userAdded": true
       }
     ],
     "resourceFolders": []

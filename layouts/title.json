@@ -1386,16 +1386,6 @@
             "=",
             "255 / 4"
           ]
-        },
-        {
-          "type": {
-            "value": "SetFullScreen"
-          },
-          "parameters": [
-            "",
-            "yes",
-            ""
-          ]
         }
       ]
     },
