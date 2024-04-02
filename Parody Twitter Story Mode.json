@@ -442,6 +442,33 @@
         "name": "assets\\NewTiledSprite2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkdown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkdown",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkdown2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkdown2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

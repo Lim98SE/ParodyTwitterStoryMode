@@ -322,7 +322,20 @@
           "value": false
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "PixelPerfectTopDownMovement",
@@ -355,11 +368,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+                  "image": "idle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -375,20 +389,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 12,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 0
+                        "x": 52,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 54
+                        "x": 52,
+                        "y": 59
                       },
                       {
-                        "x": 0,
-                        "y": 54
+                        "x": 12,
+                        "y": 59
                       }
                     ]
                   ]
@@ -403,11 +417,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+                  "image": "walkdown",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -423,27 +438,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 12,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 0
+                        "x": 52,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 54
+                        "x": 52,
+                        "y": 59
                       },
                       {
-                        "x": 0,
-                        "y": 54
+                        "x": 12,
+                        "y": 59
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
+                  "image": "walkdown2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -459,20 +474,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 12,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 0
+                        "x": 52,
+                        "y": 5
                       },
                       {
-                        "x": 40,
-                        "y": 54
+                        "x": 52,
+                        "y": 59
                       },
                       {
-                        "x": 0,
-                        "y": 54
+                        "x": 12,
+                        "y": 59
                       }
                     ]
                   ]
@@ -1542,6 +1557,90 @@
             "portrait",
             "=",
             "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "player",
+                "Animation",
+                "=",
+                "\"walkdown\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"idle\""
           ]
         }
       ]
