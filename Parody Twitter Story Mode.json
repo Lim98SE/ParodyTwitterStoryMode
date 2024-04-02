@@ -964,6 +964,24 @@
         "name": "assets\\Titles\\KARL.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Amari Stone.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Amari Stone.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/dog.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\dog.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
