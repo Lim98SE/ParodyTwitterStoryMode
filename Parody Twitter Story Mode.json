@@ -928,6 +928,33 @@
         "name": "assets\\mask.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Red.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Peppino.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Peppino.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Metal Sonic.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Metal Sonic.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
