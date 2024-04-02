@@ -524,6 +524,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Title_Theme_PTWTSM_3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Title_Theme_PTWTSM_3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
