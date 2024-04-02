@@ -784,6 +784,150 @@
         "name": "assets\\Titles\\Vessel Arlo.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Demon Expo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Demon Expo.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kirby Full-Res.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kirby Full-Res.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Lanolin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Lanolin.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/amagas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\amagas.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cosmic Arlos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cosmic Arlos.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Typhoon.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Typhoon.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hurrikale (New).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hurrikale (New).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kenjaku.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kenjaku.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/John F Kennedy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\John F Kennedy.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Invincible.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Invincible.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Draco.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Draco.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mortal Enemeis Bond.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mortal Enemeis Bond.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gordon Ramsay.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gordon Ramsay.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Amari.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Amari.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/WE ARE NINTENDO.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\WE ARE NINTENDO.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mask.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
