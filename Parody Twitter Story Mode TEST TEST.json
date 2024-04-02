@@ -1,0 +1,726 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "e11e7b37-2aad-4edb-84fd-195befceaa07",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Parody Twitter Story Mode",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1088,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "border.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Pixellari.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Pixellari.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Forest Of The Lost Memories 003 - Parody Twitter Story Mode OST (youtube).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Forest Of The Lost Memories 003 - Parody Twitter Story Mode OST (youtube).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/NPC Dialog.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/NPC Dialog.json\"}",
+        "name": "NPC Dialog",
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 8\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.09,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":200,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":35,\\\"frequencyJump2Onset\\\":20,\\\"frequencyJump2Amount\\\":60,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":40,\\\"squareDutySweep\\\":65,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"},\"localFilePath\":\"assets/New sound effect.wav\"}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/120px-Buffed_blu_scout.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\120px-Buffed_blu_scout.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/120px-Demomanava.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\120px-Demomanava.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/120px-Sniperava.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\120px-Sniperava.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/150px-Icon_medic.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\150px-Icon_medic.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/150px-Icon_soldier.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\150px-Icon_soldier.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/150px-Icon_spy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\150px-Icon_spy.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fwbpo1cpkcb61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fwbpo1cpkcb61.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/350px-Heavy-export.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\350px-Heavy-export.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled835_20240401140749-export.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled835_20240401140749-export.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Jayden.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Jayden.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Killer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Killer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Daniel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Daniel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Keldon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Keldon.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/MemeMaster.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\MemeMaster.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Elite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Elite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\M.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Robo-Fortune.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Robo-Fortune.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Shadow Witch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Shadow Witch.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Noelle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Noelle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Angel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Angel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Pizzano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Pizzano.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Fatal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Fatal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kazuki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kazuki.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Noise.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Noise.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Devourer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Devourer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Scott the Woz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Scott the Woz.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/For the Boyfans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\For the Boyfans.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hurrikale.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hurrikale.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Real Pizzano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Real Pizzano.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sans_thumbnail-export2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sans_thumbnail-export2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sans_thumbnail-export3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"sans_thumbnail-export3.png\",\"extension\":\".png\"}",
+        "name": "sans_thumbnail-export3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sans_thumbnail-export5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sans_thumbnail-export5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sans_thumbnail-export6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sans_thumbnail-export6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewPanelSprite.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewPanelSprite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sans_thumbnail-export.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "sans_thumbnail-export.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Flowry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flowry.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flowey2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flowey2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Title_Theme_PTWTSM_3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Title_Theme_PTWTSM_3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "baldi.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "baldi.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "baldi2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "baldi2.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layouts/Baldi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "layouts\\Baldi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/baldi bug.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "baldi bug",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talldi.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "talldi",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Malachite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Malachite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "RecordIt-E4F8201E-5A42-4511-A9CD-CCC19B120436.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "RecordIt-E4F8201E-5A42-4511-A9CD-CCC19B120436.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Talk Sprites/FLOWEY_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Talk Sprites\\FLOWEY_Open.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Talk Sprites/FLOWEY_Speak.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Talk Sprites\\FLOWEY_Speak.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Talk Sprites/FLOWEY_EvilOpen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Talk Sprites\\FLOWEY_EvilOpen.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Talk Sprites/FLOWEY_EvilCLosed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Talk Sprites\\FLOWEY_EvilCLosed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Talk Sprites/FLOWEY_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Talk Sprites\\FLOWEY_Closed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/wall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "wall",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/niko_finale.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\niko_finale.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/walkdown1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTERS/Niko (placeholder)/walkdown2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc_Shaded dark joystick border.png",
+          "name": "Shaded dark joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460_Shaded dark joystick thumb.png",
+          "name": "Shaded dark joystick thumb.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [
+    {
+      "name": "has_collision",
+      "objects": [
+        {
+          "name": "wall"
+        },
+        {
+          "name": "npc"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "TOLOAD",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/demo_level"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/textbox"
+    }
+  ],
+  "externalSourceFiles": []
+}
