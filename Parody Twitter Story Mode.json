@@ -1342,6 +1342,33 @@
         "name": "assets\\Titles\\Dane.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Won't we.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Won't we.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Monkey and a Bee.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Monkey and a Bee.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/New Latex Friends.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\New Latex Friends.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
