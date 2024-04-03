@@ -1,13 +1,13 @@
 {
-  "b": 117,
+  "b": 5,
   "disableInputWhenNotFocused": true,
   "mangledName": "demo_95level",
   "name": "demo_level",
-  "r": 62,
+  "r": 65,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 87,
+  "v": 117,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.5592453043678763,
+    "zoomFactor": 0.3756346576106095,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -43,7 +43,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 320,
+      "height": 64,
       "layer": "",
       "name": "wall",
       "persistentUuid": "9fb159bd-aaf6-4ce8-8b99-4d1a6d387b9b",
@@ -98,22 +98,6 @@
       "width": 448,
       "x": 640,
       "y": 704,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "wall",
-      "persistentUuid": "22900191-a5cf-452d-b945-adeae3149051",
-      "width": 448,
-      "x": 640,
-      "y": 320,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,14 +169,15 @@
     },
     {
       "angle": 353,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 111,
       "layer": "",
       "name": "tutorial",
       "persistentUuid": "da1279c2-55b3-4f5f-a90f-9d6c877f558e",
-      "width": 0,
-      "x": 126,
-      "y": 347,
+      "width": 915,
+      "x": -22,
+      "y": 247,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -398,6 +383,102 @@
       "x": 2688,
       "y": -320,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "bc946ca7-2efe-4fee-8683-660dec3facd2",
+      "width": 50,
+      "x": 1024,
+      "y": 331,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "5f4aecdb-01f4-455e-97ef-62f5fecd8d4b",
+      "width": 320,
+      "x": 704,
+      "y": 287,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 311,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "c194fe3e-799d-424c-b667-c0fa37dd2dc5",
+      "width": 64,
+      "x": 996,
+      "y": 301,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -311,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "4e7385f5-eb6e-494a-90e7-15eb7ffadc8d",
+      "width": 64,
+      "x": 667,
+      "y": 301,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "f5015661-d12a-4ae8-ac9d-086bc696d035",
+      "width": 50,
+      "x": 654,
+      "y": 331,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 336,
+      "layer": "UI",
+      "name": "LineLightJoystick",
+      "persistentUuid": "f54601d2-54a1-4ae6-b7e7-95f090df165e",
+      "width": 336,
+      "x": 232,
+      "y": 856,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1366,10 +1447,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "z to interact\narrows to move",
+      "string": "use the button on the right side to interact\nuse joystick to move",
       "font": "Pixellari.ttf",
-      "textAlignment": "left",
-      "characterSize": 64,
+      "textAlignment": "center",
+      "characterSize": 32,
       "color": {
         "b": 0,
         "g": 0,
@@ -1389,11 +1470,92 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "z to interact\narrows to move",
+        "text": "use the button on the right side to interact\nuse joystick to move",
         "font": "Pixellari.ttf",
-        "textAlignment": "left",
-        "characterSize": 64,
+        "textAlignment": "center",
+        "characterSize": 32,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "112c69f62e03fa6df7716cc6b8f174c17857fbf71c8d3fffd16fa8fdbfa49bf1",
+      "name": "LineLightJoystick",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Border": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Line light joystick border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Line light joystick thumb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   ],
@@ -1426,6 +1588,9 @@
       },
       {
         "objectName": "tutorial"
+      },
+      {
+        "objectName": "LineLightJoystick"
       }
     ]
   },
