@@ -1513,6 +1513,159 @@
         "name": "assets\\Titles\\Emperor M.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Jax.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Jax.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Sonic and Super.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Sonic and Super.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/A Very Chaotic Lawn.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\A Very Chaotic Lawn.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/the furries.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\the furries.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/BWAH.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\BWAH.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/PowerState.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\PowerState.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/SMG4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\SMG4.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/dwoab.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\dwoab.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Walter and Spongebob.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Walter and Spongebob.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Madness Trio.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Madness Trio.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/EARTHMOVER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\EARTHMOVER.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Metallic Madness.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Metallic Madness.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Digimons.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Digimons.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Shroobs.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Shroobs.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Funky Couple.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Funky Couple.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Earth-Chan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Earth-Chan.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kai.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
