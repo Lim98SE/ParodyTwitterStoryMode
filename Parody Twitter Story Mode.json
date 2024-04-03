@@ -2053,6 +2053,33 @@
         "name": "assets\\Titles\\Gogeta.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Shadic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Shadic.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/THE END.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\THE END.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Phone Dude.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Phone Dude.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
