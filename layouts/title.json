@@ -272,16 +272,14 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "persistentUuid": "338543fb-603f-4644-8f89-45f9ba305785",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "available",
-          "persistentUuid": "245d8a1a-3693-455f-97de-528e03fde9fe",
           "type": "number",
-          "value": 85
+          "value": 87
         }
       ],
       "effects": [],
@@ -4464,7 +4462,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "Ogorki",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4695,17 +4693,6 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "background",
-            "Animation",
-            "=",
-            "RandomInRange(0, background.available)"
-          ]
-        },
-        {
-          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
@@ -4725,6 +4712,17 @@
             "0",
             "0",
             "\"bg\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "background",
+            "Animation",
+            "=",
+            "RandomInRange(0, background.available)"
           ]
         }
       ]
