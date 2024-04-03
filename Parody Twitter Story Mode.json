@@ -1882,6 +1882,96 @@
         "name": "assets\\Titles\\I feel so French!.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Denji.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Denji.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Slow.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Slow.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Styroth.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Styroth.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/More of them.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\More of them.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Flumpty.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Flumpty.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gedalm.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gedalm.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Peppino Spagetti.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Peppino Spagetti.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Sonic Snowboard.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Sonic Snowboard.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Half Man Half Machine.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Half Man Half Machine.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Blue Shy Guy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Blue Shy Guy.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
