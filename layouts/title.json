@@ -272,14 +272,12 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "persistentUuid": "a7d9c72b-abfe-4775-a27f-c3656855d15b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "available",
-          "persistentUuid": "97d88374-85ee-4942-aa90-851125cdb75f",
           "type": "number",
           "value": 146
         }
@@ -7296,7 +7294,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "I feel so French!",
           "useMultipleDirections": false,
           "directions": [
             {
