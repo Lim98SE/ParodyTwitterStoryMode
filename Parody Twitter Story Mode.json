@@ -2080,6 +2080,69 @@
         "name": "assets\\Titles\\Phone Dude.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Irraded Factory.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Irraded Factory.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/An Entity's Insanity.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\An Entity's Insanity.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kazuma.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kazuma.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Billy!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Billy!.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Juliets.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Juliets.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Son Gohan.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Son Gohan.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mephiles.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mephiles.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
