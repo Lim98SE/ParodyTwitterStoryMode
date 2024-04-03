@@ -465,7 +465,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -514,7 +514,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -599,7 +599,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -684,7 +684,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -769,7 +769,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
