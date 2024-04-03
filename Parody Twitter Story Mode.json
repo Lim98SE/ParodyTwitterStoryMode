@@ -1315,6 +1315,24 @@
         "name": "assets\\Titles\\Chara.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gamzee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gamzee.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Ogorki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Ogorki.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

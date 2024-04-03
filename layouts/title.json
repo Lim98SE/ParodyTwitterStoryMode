@@ -272,14 +272,14 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "persistentUuid": "bcce5a76-5ed4-49ab-8b0f-945d1532781e",
+      "persistentUuid": "338543fb-603f-4644-8f89-45f9ba305785",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "available",
-          "persistentUuid": "c3beecb6-9ebc-4755-9132-ceb6cf0b09ca",
+          "persistentUuid": "245d8a1a-3693-455f-97de-528e03fde9fe",
           "type": "number",
           "value": 85
         }
@@ -4378,6 +4378,102 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Titles\\Chara.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1088
+                      },
+                      {
+                        "x": 0,
+                        "y": 1088
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gamzee",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Titles\\Gamzee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1088
+                      },
+                      {
+                        "x": 0,
+                        "y": 1088
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Titles\\Ogorki.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
