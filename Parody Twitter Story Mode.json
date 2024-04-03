@@ -1234,6 +1234,24 @@
         "name": "assets\\Titles\\Mr Bump.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Agent 7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Agent 7.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Crystal.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Crystal.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
