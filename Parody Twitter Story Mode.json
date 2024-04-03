@@ -1369,6 +1369,78 @@
         "name": "assets\\Titles\\New Latex Friends.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Duke Nukem.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Duke Nukem.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Soundwave.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Soundwave.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/NES Eggman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\NES Eggman.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Ourple Cell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Ourple Cell.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gaz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gaz.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Nosegay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Nosegay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Roy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Roy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Arlo Family Reunion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Arlo Family Reunion.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
