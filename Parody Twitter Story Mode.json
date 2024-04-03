@@ -1666,6 +1666,222 @@
         "name": "assets\\Titles\\Kai.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Fly by the Wayside.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Fly by the Wayside.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mudrock.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mudrock.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/ANNI.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\ANNI.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Satou.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Satou.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kamen Rider.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kamen Rider.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Wiktor.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Wiktor.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/human... o reembr..jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\human... o reembr..jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cool ass dinosaur.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cool ass dinosaur.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/SANIC.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\SANIC.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Deadpool.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Deadpool.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hanzo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hanzo.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Watcher.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Watcher.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Birch.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Birch.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Sculptress and Paintbrush.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Sculptress and Paintbrush.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Jiro.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Jiro.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Judgement Day.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Judgement Day.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Ultraman.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Ultraman.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/More FNF.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\More FNF.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/MISSING SAVE.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\MISSING SAVE.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/StarSub.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\StarSub.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Solid Snake.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Solid Snake.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Fun Gang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Fun Gang.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Blackbeard.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Blackbeard.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/I feel so French!.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\I feel so French!.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
