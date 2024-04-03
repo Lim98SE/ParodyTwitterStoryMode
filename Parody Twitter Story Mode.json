@@ -1333,6 +1333,15 @@
         "name": "assets\\Titles\\Ogorki.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Dane.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Dane.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
