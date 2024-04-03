@@ -1972,6 +1972,87 @@
         "name": "assets\\Titles\\Blue Shy Guy.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Doom Slayer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Doom Slayer.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Headed Out.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Headed Out.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Good Sonic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Good Sonic.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cat Arlo!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cat Arlo!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cream the Rabbit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cream the Rabbit.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/DON'T DO THIS AT HOME.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\DON'T DO THIS AT HOME.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Pikachu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Pikachu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Robbie Rotten.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Robbie Rotten.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gogeta.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gogeta.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
