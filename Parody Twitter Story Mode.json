@@ -787,12 +787,453 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "noise.png",
+        "file": "assets/Titles/Demon Expo.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "noise.png",
+        "name": "assets\\Titles\\Demon Expo.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kirby Full-Res.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kirby Full-Res.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Lanolin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Lanolin.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/amagas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\amagas.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Cosmic Arlos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Cosmic Arlos.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Typhoon.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Typhoon.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hurrikale (New).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hurrikale (New).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kenjaku.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kenjaku.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/John F Kennedy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\John F Kennedy.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Invincible.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Invincible.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Draco.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Draco.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mortal Enemeis Bond.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mortal Enemeis Bond.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Gordon Ramsay.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Gordon Ramsay.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Amari.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Amari.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/WE ARE NINTENDO.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\WE ARE NINTENDO.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mask.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Red.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Peppino.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Peppino.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Metal Sonic.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Metal Sonic.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/KARL.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\KARL.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Amari Stone.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Amari Stone.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/dog.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\dog.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Michael Afton.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Michael Afton.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Gammas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Gammas.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Ace.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Ace.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Scooby and Courage.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Scooby and Courage.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Charkis.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Charkis.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Night City Demon.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Night City Demon.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/St4rm4n.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\St4rm4n.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/This guy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\This guy.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Chuck.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Chuck.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Fly Guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Fly Guy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hong Kong 97.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hong Kong 97.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Wings.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Wings.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Random Recolor.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Random Recolor.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Steven.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Steven.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mr. L.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mr. L.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Duper Pizzano.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Duper Pizzano.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Ark Royal.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Ark Royal.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hank.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hank.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kevin Kaslana.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kevin Kaslana.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/ARY.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\ARY.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Retro Mario.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Retro Mario.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Blue Impostor.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Blue Impostor.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Percy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Percy.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Alex Mercer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Alex Mercer.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Hades Fortnite.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Hades Fortnite.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Kratos.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Kratos.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/V1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\V1.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Mr Bump.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Mr Bump.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
