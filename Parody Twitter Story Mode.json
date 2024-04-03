@@ -2143,6 +2143,42 @@
         "name": "assets\\Titles\\Mephiles.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Line light joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Line light joystick border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1da99d3c0a498c8b22ca295dfb33d5f121d13ac6241f68fb81dd730955db5e1f_Line light joystick border.png",
+          "name": "Line light joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Line light joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Line light joystick thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/6e451170154c7ae31c25495ad2d2ac48ba8c8d62e93e90bfcfe3c7e509c9ce66_Line light joystick thumb.png",
+          "name": "Line light joystick thumb.png"
+        }
+      },
+      {
+        "file": "Blue_Void_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Blue_Void_1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2188,6 +2224,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"
