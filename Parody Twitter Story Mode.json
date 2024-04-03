@@ -1261,6 +1261,60 @@
         "name": "assets\\Titles\\Crazy Dave.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Godzilla.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Godzilla.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Thomas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Thomas.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Shitty Disguise Arlo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Shitty Disguise Arlo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/The Vessel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\The Vessel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Founding New Memories.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Founding New Memories.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Chara.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Chara.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
