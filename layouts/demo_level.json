@@ -1956,128 +1956,105 @@
       "conditions": [
         {
           "type": {
-            "value": "TopDownMovementBehavior::IsMoving"
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
             "player",
-            "TopDownMovement"
+            "Animation",
+            "=",
+            "\"walkleft\""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "KeyPressed"
           },
-          "parameters": []
+          "parameters": [
+            "",
+            "Right"
+          ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Down"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player",
-                "Animation",
-                "=",
-                "\"walkdown\""
-              ]
-            }
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"walkright\""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Up"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player",
-                "Animation",
-                "=",
-                "\"walkup\""
-              ]
-            }
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player",
-                "Animation",
-                "=",
-                "\"walkleft\""
-              ]
-            }
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"walkup\""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "player",
-                "Animation",
-                "=",
-                "\"walkright\""
-              ]
-            }
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"walkdown\""
           ]
         }
       ]
@@ -2088,18 +2065,42 @@
         {
           "type": {
             "inverted": true,
-            "value": "TopDownMovementBehavior::IsMoving"
+            "value": "KeyPressed"
           },
           "parameters": [
-            "player",
-            "TopDownMovement"
+            "",
+            "Left"
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "inverted": true,
+            "value": "KeyPressed"
           },
-          "parameters": []
+          "parameters": [
+            "",
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
         }
       ],
       "actions": [

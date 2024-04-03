@@ -1252,6 +1252,15 @@
         "name": "assets\\Titles\\Crystal.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Crazy Dave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Crazy Dave.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
