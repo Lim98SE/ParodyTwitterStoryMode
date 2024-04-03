@@ -272,14 +272,12 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "persistentUuid": "f0c10b39-327e-4892-87df-636642c30c7e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "available",
-          "persistentUuid": "7ef7eb4b-f0ef-4bab-8e24-37cc4aac42c6",
           "type": "number",
           "value": 105
         }
