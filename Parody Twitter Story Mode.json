@@ -1504,6 +1504,15 @@
         "name": "assets\\Titles\\Baldi.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Emperor M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Emperor M.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

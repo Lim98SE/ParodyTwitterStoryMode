@@ -272,14 +272,16 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
+      "persistentUuid": "f0c10b39-327e-4892-87df-636642c30c7e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "available",
+          "persistentUuid": "7ef7eb4b-f0ef-4bab-8e24-37cc4aac42c6",
           "type": "number",
-          "value": 104
+          "value": 105
         }
       ],
       "effects": [],
@@ -5288,6 +5290,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Titles\\Baldi.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1088
+                      },
+                      {
+                        "x": 0,
+                        "y": 1088
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Emperor M",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Titles\\Emperor M.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
