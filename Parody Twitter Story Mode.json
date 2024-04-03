@@ -1441,6 +1441,51 @@
         "name": "assets\\Titles\\The Arlo Family Reunion.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Snick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Snick.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Chickin Nugget.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Chickin Nugget.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Stick Guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Stick Guy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Arlo Family Reunion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Arlo Family Reunion.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Titles/Captain Acoustic.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Titles\\Captain Acoustic.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
