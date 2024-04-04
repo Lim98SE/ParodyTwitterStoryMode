@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.444851599888666,
+    "zoomFactor": 0.5610952083582085,
     "windowMask": false
   },
   "objectsGroups": [
@@ -212,6 +212,51 @@
       "x": 944,
       "y": 4,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "fight_button",
+      "persistentUuid": "6391bf18-ac91-4238-8fcd-8cad47d2e7df",
+      "width": 0,
+      "x": 832,
+      "y": 914,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "item_button",
+      "persistentUuid": "55f2fd86-7966-4f96-b13f-9e45cec5489c",
+      "width": 0,
+      "x": 968,
+      "y": 914,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "run_button",
+      "persistentUuid": "2248d435-530f-48b1-8e4c-714f68da0602",
+      "width": 0,
+      "x": 1104,
+      "y": 914,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -519,10 +564,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -537,6 +582,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -549,9 +596,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 350,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -719,6 +764,204 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fight_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite38",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "item_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "item",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "item",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "run_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "item",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "item2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -765,6 +1008,15 @@
       },
       {
         "objectName": "meter_center"
+      },
+      {
+        "objectName": "fight_button"
+      },
+      {
+        "objectName": "item_button"
+      },
+      {
+        "objectName": "run_button"
       }
     ]
   },
@@ -932,21 +1184,32 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "f"
-          ]
-        },
-        {
-          "type": {
             "value": "VarScene"
           },
           "parameters": [
             "microgame_state",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fight_button",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
           ]
         }
       ],
@@ -959,6 +1222,60 @@
             "microgame_state",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "New sound effect3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "fight_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "item_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "run_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
           ]
         }
       ]
@@ -1733,6 +2050,48 @@
             "Tween",
             "\"out\"",
             "SceneWindowHeight()",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "fight_button",
+            "Tween",
+            "\"down\"",
+            "914",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "item_button",
+            "Tween",
+            "\"down\"",
+            "914",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "run_button",
+            "Tween",
+            "\"down\"",
+            "914",
             "\"easeInQuad\"",
             "0.5",
             ""
