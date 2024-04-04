@@ -1,0 +1,66 @@
+{
+  "associatedLayout": "battle",
+  "name": "microgame_0",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 544,
+      "layer": "",
+      "name": "guide",
+      "persistentUuid": "56e14904-6a31-40c7-96d1-72c72dd9e5a4",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "prompt",
+      "persistentUuid": "e1e100d5-f43e-4325-90a0-5b667a8072b7",
+      "width": 0,
+      "x": 1395,
+      "y": 69,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 61,
+      "layer": "",
+      "name": "mg_center",
+      "persistentUuid": "b3e47a96-9c0b-43ee-af82-3aab25f9d0dd",
+      "width": 960,
+      "x": 0,
+      "y": 239,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.7077142870146649,
+    "windowMask": false
+  }
+}
