@@ -2143,6 +2143,25 @@
         "name": "assets\\Titles\\Mephiles.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "004---enemy-approaching--yellow-.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "004---enemy-approaching--yellow-.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2184,6 +2203,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/demo_level"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/battle"
     }
   ],
   "externalEvents": [],
