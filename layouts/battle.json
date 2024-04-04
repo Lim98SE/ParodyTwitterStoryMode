@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7077142870146664,
+    "zoomFactor": 0.444851599888666,
     "windowMask": false
   },
   "objectsGroups": [
@@ -73,6 +73,24 @@
       "name": "corruption",
       "type": "number",
       "value": 0.5
+    },
+    {
+      "name": "enemy_stats",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "atk",
+          "type": "number",
+          "value": 0.25
+        },
+        {
+          "folded": true,
+          "name": "enemy_def",
+          "type": "number",
+          "value": 0.9
+        }
+      ]
     }
   ],
   "instances": [
@@ -120,7 +138,20 @@
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "attack",
+          "type": "number",
+          "value": 0.25
+        },
+        {
+          "folded": true,
+          "name": "defense",
+          "type": "number",
+          "value": 0.25
+        }
+      ]
     },
     {
       "angle": 0,
@@ -265,9 +296,27 @@
       "name": "enemy",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "defense",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "attack",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "enemyph",
@@ -735,11 +784,12 @@
       "actions": [
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
             "004---enemy-approaching--yellow-.mp3",
+            "0",
             "yes",
             "",
             ""
@@ -1731,6 +1781,72 @@
             "0"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "microgame_won",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "corruption",
+                "+",
+                "stats.atk * enemy_stats.enemy_def"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "microgame_won",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "corruption",
+                "-",
+                "stats.def * enemy_stats.atk"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1744,7 +1860,7 @@
           "parameters": [
             "meter_center",
             "=",
-            "ExtendedMath::Map(corruption, 0, 1, 4, SceneWindowWidth() - 4)"
+            "lerp(meter_center.CenterX(), ExtendedMath::Map(corruption, 0, 1, 4, SceneWindowWidth() - 4), 0.2)"
           ]
         },
         {
@@ -1786,11 +1902,12 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "VarScene"
           },
           "parameters": [
-            "",
-            "w"
+            "corruption",
+            ">=",
+            "0.95"
           ]
         },
         {
@@ -1803,12 +1920,25 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "StopMusicCanal"
           },
           "parameters": [
-            "corruption",
-            "-",
-            "0.1"
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "enemy",
+            "Tween",
+            "\"die\"",
+            "0",
+            "\"easeInOutQuad\"",
+            "1",
+            "yes"
           ]
         }
       ]
@@ -1818,11 +1948,12 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "VarScene"
           },
           "parameters": [
-            "",
-            "l"
+            "corruption",
+            "<=",
+            "0.05"
           ]
         },
         {
@@ -1835,12 +1966,99 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "StopMusicCanal"
           },
           "parameters": [
-            "corruption",
-            "+",
-            "0.1"
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "player",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "enemy",
+            "enemy",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "14 - Fanfare (from _Rose of Winter_).mp3",
+            "1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "enemy",
+            "enemy",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "SoundPlaying"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]

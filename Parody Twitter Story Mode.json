@@ -2671,6 +2671,16 @@
         "name": "NewSprite37",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "14 - Fanfare (from _Rose of Winter_).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "14 - Fanfare (from _Rose of Winter_).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2710,6 +2720,24 @@
       "name": "TOLOAD",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "stats",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "atk",
+          "type": "number",
+          "value": 0.25
+        },
+        {
+          "folded": true,
+          "name": "def",
+          "type": "number",
+          "value": 0.95
+        }
+      ]
     }
   ],
   "layouts": [
