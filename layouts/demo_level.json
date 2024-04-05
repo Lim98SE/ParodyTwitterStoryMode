@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.2978134119174865,
+    "zoomFactor": 0.6385789179380392,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "player",
       "persistentUuid": "f5b4b027-5411-40df-8fa5-dd9993001dd5",
       "width": 0,
-      "x": 832,
-      "y": 512,
+      "x": 826,
+      "y": 476,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,13 +59,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 572,
       "layer": "",
       "name": "wall",
       "persistentUuid": "eed59e86-883d-4086-8462-e50cbe5141fa",
       "width": 1344,
       "x": 1024,
-      "y": 384,
+      "y": -192,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,7 +79,7 @@
       "layer": "",
       "name": "wall",
       "persistentUuid": "34b6212f-8656-429e-991c-cfac06623b16",
-      "width": 1600,
+      "width": 3392,
       "x": 1024,
       "y": 640,
       "zOrder": 2,
@@ -91,13 +91,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 99,
       "layer": "",
       "name": "wall",
       "persistentUuid": "8ed88d92-a679-4068-99ff-b0be79b00210",
       "width": 448,
       "x": 640,
-      "y": 704,
+      "y": 669,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,7 +139,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 512,
+      "height": 508,
       "layer": "",
       "name": "wall",
       "persistentUuid": "ae42ec65-e237-43e0-966a-b8136b2d861e",
@@ -159,7 +159,7 @@
       "layer": "",
       "name": "wall",
       "persistentUuid": "a5acc64b-f967-4a92-910d-5e0b3e55c433",
-      "width": 64,
+      "width": 1856,
       "x": 2560,
       "y": -128,
       "zOrder": 5,
@@ -186,13 +186,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 448,
+      "height": 960,
       "layer": "",
       "name": "wall",
       "persistentUuid": "78cf6356-a7f5-4283-91b0-b38d610cfa7e",
-      "width": 64,
-      "x": 2752,
-      "y": -704,
+      "width": 128,
+      "x": 2624,
+      "y": -1600,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -202,30 +202,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 448,
+      "height": 960,
       "layer": "",
       "name": "wall",
       "persistentUuid": "757bd9b4-a60d-4a6d-b213-df760c762b76",
-      "width": 64,
-      "x": 2112,
-      "y": -704,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "wall",
-      "persistentUuid": "a12990c1-544c-499d-8098-062cc9075c49",
-      "width": 576,
+      "width": 128,
       "x": 2176,
-      "y": -704,
-      "zOrder": 8,
+      "y": -1600,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -262,13 +246,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1152,
+      "height": 640,
       "layer": "",
       "name": "room",
       "persistentUuid": "574b9235-f109-4b9b-9094-fa5383d55414",
       "width": 1856,
       "x": 1536,
-      "y": -1216,
+      "y": -704,
       "zOrder": -50000,
       "numberProperties": [],
       "stringProperties": [],
@@ -390,29 +374,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "wall",
-      "persistentUuid": "bc946ca7-2efe-4fee-8683-660dec3facd2",
-      "width": 50,
-      "x": 1024,
-      "y": 331,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "height": 351,
       "layer": "",
       "name": "wall",
       "persistentUuid": "5f4aecdb-01f4-455e-97ef-62f5fecd8d4b",
-      "width": 320,
-      "x": 704,
-      "y": 287,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -478,6 +446,166 @@
       "x": 0,
       "y": 0,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 768,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "1e4f6352-f2c0-4938-b245-39c9d2f14922",
+      "width": 704,
+      "x": 0,
+      "y": 320,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "6ceb5ca1-5968-4ea2-b96a-fee6ae39bc22",
+      "width": 640,
+      "x": 64,
+      "y": 192,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 186,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "8db902fd-369f-4886-8469-17f45fdab1b3",
+      "width": 896,
+      "x": 1024,
+      "y": 192,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "ef0268da-c35c-4baf-a06b-6f8b77f5d9ac",
+      "width": 3712,
+      "x": 704,
+      "y": 704,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1408,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "0e6bc74a-96c1-4c7e-ba33-37c8d7472d86",
+      "width": 768,
+      "x": 1408,
+      "y": -1600,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1472,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "66501fe4-86e3-487b-b54a-ff2b7fc5d6a2",
+      "width": 768,
+      "x": 2752,
+      "y": -1600,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "4074cdc0-d614-42bf-97fd-22a2c2873ec4",
+      "width": 64,
+      "x": 2688,
+      "y": -192,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1472,
+      "layer": "",
+      "name": "room",
+      "persistentUuid": "7202c8c3-d5e3-4ec5-93ba-3ebad1bb9f61",
+      "width": 1856,
+      "x": 1536,
+      "y": -2176,
+      "zOrder": -50000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 311,
+      "customSize": true,
+      "depth": 1,
+      "height": 91,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "045ac382-d539-410f-943c-587018b013fa",
+      "width": 91,
+      "x": 978,
+      "y": 658,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 311,
+      "customSize": true,
+      "depth": 1,
+      "height": 91,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "9459b51b-9090-4c58-b0ff-1b584f51cebe",
+      "width": 91,
+      "x": 659,
+      "y": 659,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -588,17 +716,16 @@
           ]
         },
         {
-          "name": "walkdown",
+          "name": "left",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkdown",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -634,7 +761,79 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkdown2",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -673,17 +872,16 @@
           ]
         },
         {
-          "name": "walkup",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkup",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -719,7 +917,79 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkup2",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -758,17 +1028,16 @@
           ]
         },
         {
-          "name": "walkleft",
+          "name": "up",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkleft",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -804,7 +1073,79 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkleft2",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -843,7 +1184,7 @@
           ]
         },
         {
-          "name": "walkright",
+          "name": "right",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -853,7 +1194,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkright",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -889,7 +1230,79 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkright2",
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2207,7 +2620,7 @@
             "player",
             "Animation",
             "=",
-            "\"walkleft\""
+            "\"left\""
           ]
         }
       ]
@@ -2234,7 +2647,7 @@
             "player",
             "Animation",
             "=",
-            "\"walkright\""
+            "\"right\""
           ]
         }
       ]
@@ -2261,7 +2674,7 @@
             "player",
             "Animation",
             "=",
-            "\"walkup\""
+            "\"up\""
           ]
         }
       ]
@@ -2288,7 +2701,7 @@
             "player",
             "Animation",
             "=",
-            "\"walkdown\""
+            "\"down\""
           ]
         }
       ]
