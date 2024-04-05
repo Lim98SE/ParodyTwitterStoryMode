@@ -91,6 +91,18 @@
           "value": 0.9
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "runChance",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "zoomTime",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1533,6 +1545,218 @@
             "0.5",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "zoomTime",
+            "=",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "run_button",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "microgame_state",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "canRun",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "microgame_state",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "fight_button",
+                "Tween",
+                "\"down\"",
+                "SceneWindowHeight() * 1.25",
+                "\"easeInQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "item_button",
+                "Tween",
+                "\"down\"",
+                "SceneWindowHeight() * 1.25",
+                "\"easeInQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "run_button",
+                "Tween",
+                "\"down\"",
+                "SceneWindowHeight() * 1.25",
+                "\"easeInQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "player",
+                "Tween",
+                "\"flyOut\"",
+                "-256",
+                "\"easeInQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "enemy",
+                "Tween",
+                "\"flyOut\"",
+                "SceneWindowWidth() + 128",
+                "\"easeInQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "zoomTime",
+                "=",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "canRun",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                "0.5",
+                ""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1760,7 +1984,7 @@
             "2",
             "",
             "\"linear\"",
-            "7"
+            "zoomTime"
           ]
         },
         {
@@ -2431,11 +2655,12 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "VarScene"
               },
               "parameters": [
-                "microgame_won",
-                "True"
+                "zoomTime",
+                "=",
+                "7"
               ]
             },
             {
@@ -2445,15 +2670,70 @@
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "corruption",
-                "+",
-                "stats.atk * enemy_stats.enemy_def"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "microgame_won",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "corruption",
+                    "+",
+                    "stats.atk * enemy_stats.enemy_def"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "microgame_won",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "corruption",
+                    "-",
+                    "stats.def * enemy_stats.atk"
+                  ]
+                }
               ]
             }
           ]
@@ -2463,11 +2743,12 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "VarScene"
               },
               "parameters": [
-                "microgame_won",
-                "False"
+                "zoomTime",
+                "=",
+                "5"
               ]
             },
             {
@@ -2477,15 +2758,194 @@
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "corruption",
-                "-",
-                "stats.def * enemy_stats.atk"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "microgame_won",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "099 Act Clear.mp3",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "fight_button",
+                    "Tween",
+                    "\"down\"",
+                    "SceneWindowHeight() * 1.25",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "item_button",
+                    "Tween",
+                    "\"down\"",
+                    "SceneWindowHeight() * 1.25",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "run_button",
+                    "Tween",
+                    "\"down\"",
+                    "SceneWindowHeight() * 1.25",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Tween",
+                    "\"flyOut\"",
+                    "SceneWindowWidth() + 128",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "player",
+                    "Tween",
+                    "\"flyOut\"",
+                    "-256",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "healthbar",
+                    "Tween",
+                    "\"out\"",
+                    "-128",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "enemy_healthbar",
+                    "Tween",
+                    "\"out\"",
+                    "-128",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Tween",
+                    "\"die\"",
+                    "0",
+                    "\"easeInOutQuad\"",
+                    "1",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "microgame_won",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "corruption",
+                    "-",
+                    "stats.def * enemy_stats.atk"
+                  ]
+                }
               ]
             }
           ]
@@ -2639,6 +3099,16 @@
             "enemy",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "zoomTime",
+            "=",
+            "7"
           ]
         },
         {

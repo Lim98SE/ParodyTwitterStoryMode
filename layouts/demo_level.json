@@ -1592,7 +1592,7 @@
           },
           "parameters": [
             "",
-            "Blue_Void_1.mp3",
+            "tutorial_theme_ptsm.mp3",
             "yes",
             "75",
             ""
@@ -1677,6 +1677,55 @@
           "parameters": [
             "",
             "\"Transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "BattleTransition",
+            "=",
+            "cScroll[0]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "BattleTransition",
+            "=",
+            "cScroll[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "BattleTransition",
+            "Tween",
+            "\"fadeOut\"",
+            "0",
+            "\"easeInQuad\"",
+            "1",
+            ""
           ]
         },
         {
@@ -2391,35 +2440,6 @@
           "parameters": [
             "",
             "\"battle\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-          },
-          "parameters": [
-            "BattleTransition",
-            "Tween",
-            "\"fadeOut\"",
-            "0",
-            "\"easeInQuad\"",
-            "1",
-            ""
           ]
         }
       ]
