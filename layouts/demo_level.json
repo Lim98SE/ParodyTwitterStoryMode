@@ -1980,6 +1980,14 @@
             "=",
             "cScroll[1]"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "npc_invisible_wall"
+          ]
         }
       ]
     },
@@ -3044,17 +3052,6 @@
             "cScroll[1]",
             "=",
             "BattleTransition.YOffset()"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "tutorial",
-            "Text",
-            "=",
-            "prevBattleState"
           ]
         }
       ]
