@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5800155239904877,
+    "zoomFactor": 0.44485159988866635,
     "windowMask": false
   },
   "objectsGroups": [
@@ -407,6 +407,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "enemyph",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 192
+                      },
+                      {
+                        "x": 0,
+                        "y": 192
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flowey",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "flowey",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1350,6 +1399,37 @@
           "parameters": [
             "",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "enemy_stats.atk",
+            "=",
+            "GlobalVariable(enemy.atk)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "enemy_stats.enemy_def",
+            "=",
+            "GlobalVariable(enemy.def)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "enemy",
+            "Animation",
+            "=",
+            "GlobalVariableString(enemy.anim)"
           ]
         }
       ]
@@ -3083,6 +3163,16 @@
                     "",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "prevBattleState",
+                    "=",
+                    "2"
+                  ]
                 }
               ]
             },
@@ -3213,6 +3303,16 @@
             "",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "prevBattleState",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -3252,6 +3352,16 @@
           },
           "parameters": [
             "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "prevBattleState",
+            "=",
             "1"
           ]
         }

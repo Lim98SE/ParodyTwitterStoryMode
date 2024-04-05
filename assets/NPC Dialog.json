@@ -22,10 +22,70 @@
 	{
 		"title": "NPC_Flowey_00",
 		"tags": "",
-		"body": "<< p Flowey >> \nHowdy! I'm Flowey! Flowey the Flower!\nHmm...\nYou're new to TWITTER, aren'tcha?\nGolly, you must be so confused.\nSomeone ought to teach you how things work around here!\nI guess little old me will have to do.\nReady? Here we go!",
+		"body": "<< p Flowey >> \nHowdy! I'm Flowey! Flowey the Flower!\nHmm...\nYou're new to TWITTER, aren'tcha?\nGolly, you must be so confused.\nSomeone ought to teach you how things work around here!\nI guess little old me will have to do.\nReady? Here we go!\n<< battle 0.1 0.9 flowey >> \nNow wasn't that great?\n<< die >>\n<< destroy 0 >>\nI'll meet you ahead.",
 		"position": {
-			"x": -137,
-			"y": 107
+			"x": -293,
+			"y": 306
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NPC_Flowey_01",
+		"tags": "",
+		"body": "Hello world",
+		"position": {
+			"x": -505,
+			"y": 160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NPC_Flowey_02",
+		"tags": "",
+		"body": "Hello world 2\nThe seqyuek",
+		"position": {
+			"x": -60,
+			"y": 169
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NPC_Flowey_05",
+		"tags": "",
+		"body": "You could've been great...\n...if you didn't run like a baby.",
+		"position": {
+			"x": -33,
+			"y": 771
+		},
+		"colorID": 8
+	},
+	{
+		"title": "NPC_Flowey_04",
+		"tags": "",
+		"body": "There's definitely room for improvement...\nI'm sure you'll get the hang of it eventually!",
+		"position": {
+			"x": -293,
+			"y": 780
+		},
+		"colorID": 8
+	},
+	{
+		"title": "NPC_Flowey_03",
+		"tags": "",
+		"body": "Great job back there, by the way.\nYou'll go far with that kind of an attitude...",
+		"position": {
+			"x": -567,
+			"y": 790
+		},
+		"colorID": 8
+	},
+	{
+		"title": "NPC_Flowey_06",
+		"tags": "",
+		"body": "<< if $battleState is 0 >>\n[[NPC_Flowey_03]]\n<< elseif  $battleState is 1 >>\n[[NPC_Flowey_04]]\n<< else >>\n[[NPC_Flowey_05]]\n<< endif >>",
+		"position": {
+			"x": -306,
+			"y": 535
 		},
 		"colorID": 0
 	}

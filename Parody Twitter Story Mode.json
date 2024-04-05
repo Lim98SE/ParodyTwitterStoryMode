@@ -2777,6 +2777,114 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flowey.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "flowey",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite8",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2806,6 +2914,9 @@
         },
         {
           "name": "goal"
+        },
+        {
+          "name": "npc_invisible_wall"
         }
       ]
     }
@@ -2816,6 +2927,30 @@
       "name": "TOLOAD",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "enemy",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "anim",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "atk",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "def",
+          "type": "number",
+          "value": 0
+        }
+      ]
     },
     {
       "name": "stats",
@@ -2855,6 +2990,12 @@
       "name": "canRun",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "prevBattleState",
+      "type": "number",
+      "value": 2
     }
   ],
   "layouts": [

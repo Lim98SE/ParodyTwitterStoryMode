@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.6385789179380392,
+    "zoomFactor": 0.5233548233984363,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -222,8 +222,8 @@
       "name": "npc",
       "persistentUuid": "0fdab65a-2a72-4fee-baa3-ce0f3778e289",
       "width": 0,
-      "x": 2432,
-      "y": -512,
+      "x": 1088,
+      "y": 480,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,6 +609,50 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "npc",
+      "persistentUuid": "bd4b0238-ff09-4916-9d56-27201721bafe",
+      "width": 0,
+      "x": 2432,
+      "y": -512,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "sprite",
+          "type": "string",
+          "value": "Flowey"
+        },
+        {
+          "folded": true,
+          "name": "dialog",
+          "type": "string",
+          "value": "NPC_Flowey_06"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "layer": "",
+      "name": "npc_invisible_wall",
+      "persistentUuid": "6d2b30b2-02ec-41f2-bdd0-475525bbbdb8",
+      "width": 64,
+      "x": 1216,
+      "y": 384,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -721,11 +765,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft0.png",
+                  "image": "left",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -761,79 +806,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkleft2.png",
+                  "image": "left2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -877,11 +850,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+                  "image": "down",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -917,7 +891,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown1.png",
+                  "image": "down2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -953,7 +927,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\idle.png",
+                  "image": "down3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -989,7 +963,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkdown2.png",
+                  "image": "down4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1033,11 +1007,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup0.png",
+                  "image": "up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1073,79 +1048,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkup2.png",
+                  "image": "up2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1194,78 +1097,6 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 5
-                      },
-                      {
-                        "x": 52,
-                        "y": 59
-                      },
-                      {
-                        "x": 12,
-                        "y": 59
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
                   "image": "right",
                   "points": [],
                   "originPoint": {
@@ -1302,7 +1133,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\CHARACTERS\\Niko (placeholder)\\walkright2.png",
+                  "image": "right2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1731,6 +1562,17 @@
           "name": "sprite",
           "type": "string",
           "value": ""
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "enabled",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -1747,7 +1589,12 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "DUMMY",
@@ -1926,6 +1773,24 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "npc_invisible_wall",
+      "texture": "NewTiledSprite8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1963,6 +1828,9 @@
       },
       {
         "objectName": "BattleTransition"
+      },
+      {
+        "objectName": "npc_invisible_wall"
       }
     ]
   },
@@ -2214,6 +2082,15 @@
             "has_collision",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"battleState\"",
+            "prevBattleState"
+          ]
         }
       ]
     },
@@ -2327,22 +2204,23 @@
       "conditions": [
         {
           "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "BattleTransition",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::IsDialogueRunning"
           },
           "parameters": []
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "player",
-            "TopDownMovement",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "ShowLayer"
@@ -2354,13 +2232,12 @@
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "textbox_text",
-            "Text",
-            "=",
-            "DialogueTree::LineText()"
+            "Text_AutoTyping",
+            "yes"
           ]
         }
       ],
@@ -2370,49 +2247,41 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
-                "",
-                "z"
+                "\"text\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "textbox_text",
+                "Text",
+                "=",
+                "DialogueTree::LineText()"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
-                    "textbox_text",
-                    "Text_AutoTyping",
-                    ""
+                    "",
+                    "c"
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "New sound effect",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "DialogueTree::GoToNextLine"
@@ -2426,37 +2295,95 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                    "value": "KeyReleased"
                   },
                   "parameters": [
-                    "textbox_text",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
-                  },
-                  "parameters": [
-                    "textbox_text",
-                    "Text_AutoTyping",
-                    ""
+                    "",
+                    "z"
                   ]
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "",
-                    "New sound effect",
-                    "",
-                    "",
-                    ""
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "textbox_text",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "New sound effect",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::GoToNextLine"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "textbox_text",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                      },
+                      "parameters": [
+                        "textbox_text",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "New sound effect",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2468,50 +2395,155 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
-                "",
-                "c"
+                "\"options\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::GoToNextLine"
+                "value": "ActivateBehavior"
               },
-              "parameters": []
+              "parameters": [
+                "textbox_text",
+                "Text_AutoTyping",
+                ""
+              ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueRunning"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "npc",
-            "\"interactCooldown\""
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectOption"
+                  },
+                  "parameters": [
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectNextOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectPreviousOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "textbox_text",
+                    "Text",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\"> \")"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -2538,6 +2570,204 @@
             "Animation",
             "=",
             "DialogueTree::CommandParameter(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"battle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "enemy.atk",
+            "=",
+            "ToNumber(DialogueTree::CommandParameter(0))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "enemy.def",
+            "=",
+            "ToNumber(DialogueTree::CommandParameter(1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "enemy.anim",
+            "=",
+            "DialogueTree::CommandParameter(2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "BattleTransition",
+            "Tween",
+            "\"fadeIn\"",
+            "255",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraZoom2"
+          },
+          "parameters": [
+            "",
+            "\"zoomIn\"",
+            "5",
+            "",
+            "\"easeInOutQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraRotation2"
+          },
+          "parameters": [
+            "",
+            "\"rotateTo\"",
+            "20",
+            "",
+            "\"easeInOutQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"die\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "npc",
+            "player.CenterX()",
+            "player.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "npc",
+            "Tween",
+            "\"die\"",
+            "0",
+            "\"linear\"",
+            "0.5",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"destroy\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "npc_invisible_wall",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "npc_invisible_wall",
+                "id",
+                "=",
+                "ToNumber(DialogueTree::CommandParameter(0))"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "npc_invisible_wall",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -2806,6 +3036,17 @@
             "=",
             "BattleTransition.YOffset()"
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "tutorial",
+            "Text",
+            "=",
+            "prevBattleState"
+          ]
         }
       ]
     },
@@ -2998,6 +3239,29 @@
             "",
             "\"easeInOutQuad\"",
             "0.1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueRunning"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement",
+            ""
           ]
         }
       ]
