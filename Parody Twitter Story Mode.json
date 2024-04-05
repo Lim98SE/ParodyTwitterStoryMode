@@ -2718,6 +2718,25 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "099 Act Clear.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "099 Act Clear.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2773,6 +2792,21 @@
           "name": "def",
           "type": "number",
           "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "cScroll",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
         }
       ]
     }

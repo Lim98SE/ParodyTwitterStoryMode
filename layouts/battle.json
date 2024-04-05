@@ -282,7 +282,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -669,12 +674,17 @@
       "assetStoreId": "",
       "height": 32,
       "name": "healthbar",
-      "texture": "NewTiledSprite6",
+      "texture": "NewTiledSprite7",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -685,7 +695,12 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -712,7 +727,12 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1088,6 +1108,194 @@
             "=",
             "-window.Height()"
           ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "player",
+            "=",
+            "-256"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "enemy",
+            "=",
+            "SceneWindowWidth() + 128"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"flyIn\"",
+            "104",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "enemy",
+            "Tween",
+            "\"flyIn\"",
+            "1581",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "fight_button",
+            "=",
+            "SceneWindowHeight()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "item_button",
+            "=",
+            "SceneWindowHeight()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "run_button",
+            "=",
+            "SceneWindowHeight()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "fight_button",
+            "Tween",
+            "\"down\"",
+            "914",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "item_button",
+            "Tween",
+            "\"down\"",
+            "914",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "run_button",
+            "Tween",
+            "\"down\"",
+            "914",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "healthbar",
+            "=",
+            "-128"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "enemy_healthbar",
+            "=",
+            "-128"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "healthbar",
+            "Tween",
+            "\"in\"",
+            "4",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "enemy_healthbar",
+            "Tween",
+            "\"in\"",
+            "4",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "background",
+            "=",
+            "cScroll[0]"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "background",
+            "=",
+            "cScroll[1]"
+          ]
         }
       ]
     },
@@ -1113,6 +1321,26 @@
             "background",
             "-",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "cScroll[0]",
+            "=",
+            "background.XOffset()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "cScroll[1]",
+            "=",
+            "background.YOffset()"
           ]
         },
         {
@@ -1273,6 +1501,34 @@
             "Tween",
             "\"down\"",
             "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "enemy",
+            "Tween",
+            "\"flyOut\"",
+            "SceneWindowWidth() + 128",
+            "\"easeInQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"flyOut\"",
+            "-256",
             "\"easeInQuad\"",
             "0.5",
             ""
@@ -2064,7 +2320,7 @@
             "Tween",
             "\"down\"",
             "914",
-            "\"easeInQuad\"",
+            "\"easeOutQuad\"",
             "0.5",
             ""
           ]
@@ -2078,7 +2334,7 @@
             "Tween",
             "\"down\"",
             "914",
-            "\"easeInQuad\"",
+            "\"easeOutQuad\"",
             "0.5",
             ""
           ]
@@ -2092,7 +2348,35 @@
             "Tween",
             "\"down\"",
             "914",
-            "\"easeInQuad\"",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "enemy",
+            "Tween",
+            "\"flyIn\"",
+            "1581",
+            "\"easeOutQuad\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"flyIn\"",
+            "104",
+            "\"easeOutQuad\"",
             "0.5",
             ""
           ]
@@ -2371,10 +2655,108 @@
           },
           "parameters": [
             "",
-            "14 - Fanfare (from _Rose of Winter_).mp3",
+            "099 Act Clear.mp3",
             "1",
             "",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "fight_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "item_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "run_button",
+            "Tween",
+            "\"down\"",
+            "SceneWindowHeight() * 1.25",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "enemy",
+            "Tween",
+            "\"flyOut\"",
+            "SceneWindowWidth() + 128",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"flyOut\"",
+            "-256",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "healthbar",
+            "Tween",
+            "\"out\"",
+            "-128",
+            "\"easeOutQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "enemy_healthbar",
+            "Tween",
+            "\"out\"",
+            "-128",
+            "\"easeOutQuad\"",
+            "1",
             ""
           ]
         }
@@ -2402,6 +2784,16 @@
           "parameters": [
             "",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "player",
+            "Tween",
+            "\"flyOut\""
           ]
         },
         {
