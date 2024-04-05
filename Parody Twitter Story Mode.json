@@ -2757,6 +2757,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "tutorial_theme_ptsm(1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tutorial_theme_ptsm(1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "10. Ultimate Battle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "10. Ultimate Battle.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

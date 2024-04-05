@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.3078557784696663,
+    "zoomFactor": 0.2978134119174865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1588,13 +1588,14 @@
         },
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
-            "tutorial_theme_ptsm.mp3",
+            "tutorial_theme_ptsm(1).mp3",
+            "0",
             "yes",
-            "75",
+            "",
             ""
           ]
         },
@@ -1771,6 +1772,17 @@
             "0",
             "",
             "\"easeInOutQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "100",
             "1"
           ]
         }
@@ -2328,13 +2340,12 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "ChangeSprite"
           },
           "parameters": [
             "player",
-            "Animation",
             "=",
-            "\"idle\""
+            "0"
           ]
         }
       ]
@@ -2442,6 +2453,17 @@
             "20",
             "",
             "\"easeInOutQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeMusicVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0",
             "1"
           ]
         }

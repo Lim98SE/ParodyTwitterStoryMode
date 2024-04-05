@@ -5,7 +5,7 @@
   "name": "battle",
   "r": 46,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 46,
   "uiSettings": {
@@ -269,6 +269,21 @@
       "x": 1104,
       "y": 914,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tweenPlaceholder",
+      "persistentUuid": "63546357-81fb-4e24-b5c1-5128d9b63d17",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -994,6 +1009,22 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tweenPlaceholder",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -1049,6 +1080,9 @@
       },
       {
         "objectName": "run_button"
+      },
+      {
+        "objectName": "tweenPlaceholder"
       }
     ]
   },
@@ -1073,9 +1107,9 @@
           "parameters": [
             "",
             "004---enemy-approaching--yellow-.mp3",
-            "0",
+            "1",
             "yes",
-            "",
+            "100",
             ""
           ]
         },
@@ -1307,6 +1341,15 @@
             "background",
             "=",
             "cScroll[1]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
           ]
         }
       ]
@@ -2911,7 +2954,7 @@
                   },
                   "parameters": [
                     "",
-                    "0"
+                    "1"
                   ]
                 }
               ]
@@ -3023,15 +3066,6 @@
       "actions": [
         {
           "type": {
-            "value": "StopMusicCanal"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
           },
           "parameters": [
@@ -3042,6 +3076,15 @@
             "\"easeInOutQuad\"",
             "1",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]
@@ -3069,20 +3112,20 @@
       "actions": [
         {
           "type": {
-            "value": "StopMusicCanal"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "Delete"
           },
           "parameters": [
             "player",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]
@@ -3280,6 +3323,180 @@
           },
           "parameters": [
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fight_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "fight_button",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fight_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "fight_button",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "run_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "run_button",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fight_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "fight_button",
+            "\"127;127;127\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "item_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "item_button",
+            "\"127;127;127\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "run_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "run_button",
+            "\"127;127;127\""
           ]
         }
       ]
