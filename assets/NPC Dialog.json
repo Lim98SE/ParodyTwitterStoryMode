@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "<< p Flowey >> \nHowdy! I'm Flowey! Flowey the Flower!\nHmm...\nYou're new to TWITTER, aren'tcha?\nGolly, you must be so confused.\nSomeone ought to teach you how things work around here!\nI guess little old me will have to do.\nReady? Here we go!\n<< battle 0.1 0.9 flowey >> \nNow wasn't that great?\n<< die >>\n<< destroy 0 >>\nI'll meet you ahead.",
 		"position": {
-			"x": -293,
-			"y": 306
+			"x": -294,
+			"y": 305
 		},
 		"colorID": 0
 	},
@@ -72,7 +72,7 @@
 	{
 		"title": "NPC_Flowey_03",
 		"tags": "",
-		"body": "Great job back there, by the way.\nYou'll go far with that kind of an attitude...",
+		"body": "Great job back there, by the way.\n<< p EvilFlowey >> \nYou'll go far with that kind of an attitude...",
 		"position": {
 			"x": -567,
 			"y": 790
@@ -84,8 +84,8 @@
 		"tags": "",
 		"body": "<< if $battleState is 0 >>\n[[NPC_Flowey_03]]\n<< elseif  $battleState is 1 >>\n[[NPC_Flowey_04]]\n<< else >>\n[[NPC_Flowey_05]]\n<< endif >>",
 		"position": {
-			"x": -306,
-			"y": 535
+			"x": -299,
+			"y": 534
 		},
 		"colorID": 0
 	}

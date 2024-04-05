@@ -2239,6 +2239,15 @@
             "Text_AutoTyping",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "npc",
+            "\"interactCooldown\""
+          ]
         }
       ],
       "events": [
@@ -2295,7 +2304,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
                     "",
@@ -2458,7 +2467,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "DialogueTree::SelectNextOption"
+                    "value": "DialogueTree::SelectPreviousOption"
                   },
                   "parameters": []
                 }
@@ -2486,7 +2495,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "DialogueTree::SelectPreviousOption"
+                    "value": "DialogueTree::SelectNextOption"
                   },
                   "parameters": []
                 }
