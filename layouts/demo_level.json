@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.30785577846966866,
+    "zoomFactor": 1.4154285740293495,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -770,7 +770,79 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets\\walkleft0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\walkleft0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1012,7 +1084,79 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets\\walkup0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "up",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\walkup0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1097,7 +1241,79 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets\\walkright0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "right",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 59
+                      },
+                      {
+                        "x": 12,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\walkright0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1905,8 +2121,8 @@
           },
           "parameters": [
             "",
-            "yes",
-            ""
+            "no",
+            "yes"
           ]
         },
         {
