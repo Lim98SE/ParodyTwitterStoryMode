@@ -653,21 +653,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewTileMap",
-      "persistentUuid": "0361af2c-0092-4239-afc4-e4091ee7222e",
-      "width": 0,
-      "x": -64,
-      "y": -1088,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1239,9 +1224,21 @@
       "topMargin": 64,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 128,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "big",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1884,6 +1881,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"floweySpokenTo\"",
+            "0"
+          ]
+        },
         {
           "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
