@@ -141,7 +141,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "KeyReleased"
                   },
                   "parameters": [
                     "",
