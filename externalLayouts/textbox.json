@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "FallenDown",
+  "associatedLayout": "demo_level",
   "name": "textbox",
   "instances": [
     {
@@ -60,7 +60,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 0.4753585087126931,
+    "zoomFactor": 0.5427920802473274,
     "windowMask": false
   }
 }

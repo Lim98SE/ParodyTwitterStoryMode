@@ -2885,6 +2885,59 @@
         "name": "NewTiledSprite8",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestTileset.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Tilesets/gary.json",
+        "kind": "tilemap",
+        "metadata": "{\"embeddedResourcesMapping\":{\"../../../../../../Downloads/TestTileset.png\":\"TestTileset.png\"}}",
+        "name": "assets\\Tilesets\\gary.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestTileset2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestTileset2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestTileset3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestTileset3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Tilesets/gary2.ldtk",
+        "kind": "tilemap",
+        "metadata": "{\"embeddedResourcesMapping\":{\"../../../../../../Downloads/TestTileset2.png\":\"TestTileset3.png\"}}",
+        "name": "assets\\Tilesets\\gary2.ldtk",
+        "userAdded": true
+      },
+      {
+        "file": "18 Mini Studio.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "18 Mini Studio.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3014,9 +3067,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/battle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/shop"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/text"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
